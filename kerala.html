@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Card with Carousel</title>
+  <!-- Bootstrap CSS -->
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transparent Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="kerala.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" 
+          integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" 
+          integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+
+    .navbar-brand {
+      color: #fff; /* Change the color of the navbar brand text */
+    }
+
+    .navbar-nav .nav-link {
+      color: #fff; /* Change the color of the navbar links */
+    }
+
+    .carousel-item img {
+      width: 100%;
+      height: auto;
+    }
+  
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top navbar-scrolled pt-3">
+      <div class="container-fluid">
+        <img src="kerala-tourism-title.png" width="150px" height="26px">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <a href=""><img src="youtube (2).png" alt="Profile" width="20" height="20" class="d-inline-block align-middle"></a>
+            <a href=""><img src="fb1.png" alt="Profile" width="20" height="20" class="d-inline-block align-middle"></a>
+            <a href=""><img src="twitter (1).png" alt="Profile" width="20" height="20" class="d-inline-block align-middle"></a>
+            <a href=""><img src="instagram.png" alt="Profile" width="20" height="20" class="d-inline-block align-middle"></a>
+            <a href=""><img src="whatsapp.png" alt="Profile" width="20" height="20" class="d-inline-block align-middle"></a>
+            <a href=""><img src="pinterest.png" alt="Profile" width="20" height="20" class="d-inline-block align-middle"></a>
+            
+            
+          </ul>
+          
+            
+              
+              <a class="nav-link text-white" href="#experience" style="font: size 15px; font-family: Bebas Neue;">EXPERIENCE KERALA</a>
+            <a class="nav-item ">
+              <a class="nav-link text-white" href="#go" style="font-size: 15px; font-family: Bebas Neue;">WHERE TO GO</a>
+            </a>
+            <a class="nav-item">
+              <a class="nav-link text-white" href="" style="font-size: 15px; font-family: Bebas Neue;">WHERE TO STAY</a>
+            </a>
+            <a class="nav-item">
+              <a class="nav-link text-white" href="#things" style="font-size: 15px; font-family: Bebas Neue;">THINGS TO DO</a>
+            </a>
+            <a class="nav-item">
+              <a class="nav-link text-white" href="#new" style="font-size: 15px; font-family: Bebas Neue;">PLAN YOUR TRIP</a>
+            </a>
+            <a class="nav-item">
+              <a class="nav-link text-white" href="#" style="font-size: 15px; font-family: Bebas Neue;">TRAVEL CARE</a>
+            </a>
+            <a class="nav-item">
+              <a class="nav-link text-white" href="#" style="font-size: 15px; font-family: Bebas Neue;">E BROCHURES</a>
+            </a>
+          
+        </div>
+      </div>
+    </nav>
+    
+   
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="kr 1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="kr2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="kr3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="kr4.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="kr5.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="kr6.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+    <div class="container-fluid pt-4">
+     <a href=""><img src="banner.jpg" style="width: 100%;" alt="Responsive Image" class="img-fluid"></a>
+    </div>
+    </div>
+    <section>
+      <div class="container-fluid my-3" style="background-color:white ;height: 750px;">
+        <h1 class="text-center pt-5" style="color:#036; font-family:Montserrat ; font-size: 30px;">Experience Kerala</h1>
+        <div class="row mt-5">
+          <div id="experience" class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="box">
+                <img src="tr1.jpg" alt="Avatar" class="image img-fluid">
+                <div class="title">
+                  <span class="caption-bottom" style="font-family: Bebas Neue;font-size:30px ;">LANDS OF MAJESTIC TREATS</span>
+                </div>
+                <div class="overlay">
+                  <div class="text">
+                    Explore the tourist destinations and things to do in Kollam and Thiruvananthapuram. Check out the e-brochure and start
+                    planning your next trip to South Kerala.
+                    <button type="button" class="btn btn-dark mt-3">More</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <img src="tr2.jpg" alt="Avatar" class="image img-fluid">
+                <div class="title">
+                  <span class="caption-bottom" style="font-family: Bebas Neue;font-size: 30px;">RESPONSIBLE TOURISM MISSION</span>
+                </div>
+                <div class="overlay">
+                  <div class="text">
+                    RT Mission is the nodal agency formed by the Government of Kerala to spread and implement the ideologies and initiatives of Responsible Tourism all over the State <br>
+
+                    <button type="button" class="btn btn-dark mt-3">More</button> </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <img src="tr3.jpg" alt="Avatar" class="image img-fluid">
+                <div class="title">
+                  <span class="caption-bottom" style="font-family: Bebas Neue;font-size: 30px;">YOGA</span>
+                </div>
+                <div class="overlay">
+                  <div class="text">
+                    An exclusive website to know What is Yoga and how Yoga can change your life
+                    <button type="button" class="btn btn-dark mt-3">More</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <img src="tr4.jpg" alt="Avatar" class="image img-fluid">
+                <div class="title">
+                  <span class="caption-bottom" style="font-family: Bebas Neue;font-size: 30px;">KANNUR</span>
+                </div>
+                <div class="overlay">
+                  <div class="text">
+                    Welcome to Kannur, a city that boasts of a vibrant tapestry of history, culture, tradition and natural beauty.
+                    <button type="button" class="btn btn-dark mt-3">More</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <img src="tr5.jpg" alt="Avatar" class="image img-fluid">
+                <div class="title">
+                  <span class="caption-bottom" style="font-family: Bebas Neue; font-size: 30px;">JUDAISM IN KERALA</span>
+                </div>
+                <div class="overlay">
+                  <div class="text">
+                    Judaism is an ethnic religion comprising the collective religious, cultural and legal
+                    tradition and civilization of the Jewish people. <br>
+                    <button type="button" class="btn btn-dark mt-3">More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <img src="tr6.jpg" alt="Avatar" class="image img-fluid">
+                <div class="title">
+                  <span class="caption-bottom" style="font-family: Bebas Neue;font-size: 30px;">ECOTOURISM</span>
+                </div>
+                <div class="overlay">
+                  <div class="text">
+                    Welcome to the official website of Eco Adventure Tourism in Kerala. A trip to swooningly picturesque places that are also silent, serene, slow-moving is what travelers to the Kerala always looks for is there.
+                    <button type="button" class="btn btn-dark mt-3">More</button>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-auto">
+                <button class="btn" style="background-color: #036; color: white;">Find More Experience <span class="ribbon">HOT</span></button>
+              </div>
+            </div>
+          </div>
+            <!-- Add more items here -->
+          
+        </div>
+        
+      </div>
+      
+    </section><br><br>
+
+
+   
+
+    <section style="background-color: #e3e7f1;">
+     <div class="container-fluid mt-5">
+      <h3 class="text-center pt-5" style="color:#036; font-size: 30px;font-family: Montserrat;">Top Destinations</h3>
+      <div id="go" class="container">
+        
+      <div class="row row-cols-1 row-cols-md-4 g-4 mt-4">
+        <div class="col">
+          <div class="card">
+            <img src="kalamandalam.jpg" class="card-img-top" alt="...">
+            <div class="title">
+              <span class="caption-bottom"> Kerala Kalamanadalam</span>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Kuthampully2.jpg" class="card-img-top" alt="...">
+            <div class="title">
+              <span class="caption-bottom">Kuthampully</span>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="museum_of_kerala_history1.jpg" class="card-img-top" alt="...">
+            <div class="title">
+              <span class="caption-bottom">Museum of Kerala</span>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="thekkekudi_cave_temple.jpg" class="card-img-top" alt="...">
+            <div class="title">
+              <span class="caption-bottom">Thekkekudi Cave Temple</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4 mt-4">
+        <div class="col">
+          <div class="card">
+            <img src="mannar.jpg" class="card-img-top" alt="...">
+            <div class="title">
+              <span class="caption-bottom">Mannar</span>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="MANNANAM-1.jpg" class="card-img-top" alt="...">
+            <div class="title">
+              <span class="caption-bottom">Mannanam</span>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="kunhimangalam2.jpg" class="card-img-top" alt="...">
+            <div class="title">
+              <span class="caption-bottom">Kunhimangalam</span>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="vyloppilli-samakrithi-bhavan2.jpg" class="card-img-top" alt="...">
+            <div class="title">
+              <span class="caption-bottom">Vyloppilli Samskrithi Bhavan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="container">
+      <div class="row justify-content-center mt-4">
+        <div class="col-auto">
+          <button class="btn" style="background-color: #036; color: white;">Explore Our Destinations <span class="ribbon">HOT</span></button><br><br>
+        </div>
+      </div>
+    </div>
+    </div>
+</section>
+     <section>
+  <div id="things" class="container-fluid mt-4" style="background-image: url(WhatsApp\ Image\ 2024-02-10\ at\ 14.22.31_a61c2b6a.jpg); background-position: center;">
+    <div class="container">
+      <h3 class="text-center pt-4" style="color:white;font-size: 30px;font-family: Montserrat;">Things to do in Kerala</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+        <div class="col">
+          <div class="card" style="width: 100%;">
+            <img class="card-img-top" src="A-Journey-through-the-Forest.jpg" alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title text-center">A Journey Through The Forest</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 100%;">
+            <img class="card-img-top" src="Hiking.jpg" alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title text-center">Hiking</h5>
+            </div>
+          </div>
+        </div> 
+        <div class="col">
+          <div class="card" style="width: 100%;">
+            <img class="card-img-top" src="scuba-diving1.jpg" alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title text-center">Scuba Diving</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+        <div class="col">
+          <div class="card" style="width: 100%;">
+            <img class="card-img-top" src="responsible tourism.jpg" alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title text-center">Responsible Tourism</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 100%;">
+            <img class="card-img-top" src="ayurveda6.jpg" alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title text-center">Ayurveda</h5>
+            </div>
+          </div>
+        </div> 
+        <div class="col">
+          <div class="card" style="width: 100%;">
+            <img class="card-img-top" src="Paragliding.jpg" alt="Card image">
+            <div class="card-body">
+              <h5 class="card-title text-center">Paragliding</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center mt-5 pb-4">
+          <div class="col-auto">
+            <button class="btn" style="background-color: #036; color: white;">Find More Activities--> <span class="ribbon">NEW</span></button>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+</section>
+
+<section>
+  <div id="new" class="container-fluid">
+    <div class="container pt-5">
+      <h2 class="text-center" style="font-family: Montserrat;color: #036;">What's New</h2>
+      <span class="sub-head"></span><br>    
+      <div class="box" style="border-top: 1px solid lightgray;">
+        <div class="row pt-5">
+          <div class="col-md-6">
+            <ul class="justify-content-center" style="list-style-type:circle;">
+              <li>
+                <a href="" style="text-decoration: none;">Tourism department to select candidates for the post of Lifeguard Chief Coordinator on a daily wage basis in Thiruvananthapuram district</a>
+              </li><br>
+              <li>
+                <a href="" style="text-decoration: none;">Kerala Tourism invites applications from lifeguards at various beaches in Kollam and Kozhikode</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="justify-content-center" style="list-style-type: circle;">
+              <li>
+                <a href="" style="text-decoration: none;">Kerala Travel Mart 2024 Buyer Registration | Register Now</a>
+              </li><br>
+              <li>
+                <a href="" style="text-decoration: none;">Domestic Partnership Meets 2023-24 | Register Now</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row justify-content-center mt-4">
+            <div class="col-auto">
+              <button class="btn" style="background-color: #036; color: white;">More News <span class="ribbon">NEW</span></button>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+</section>
+        
+          <section class="mt-4" style="height: 700px; background-color: #036;">
+            <h2 class="text-center pt-4" style="font-family: Montserrat;color: rgb(249, 250, 251);">What's happening</h2> 
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="col-md-2">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="andalur_kavu20220107061933_396_1.jpg">
+                          <div class="title">
+                            <span class="caption-bottom">Andalur Kavu</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-2">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="attukal pongala.jpg">
+                          <div class="title">
+                            <span class="caption-bottom">Attukal Pongala</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-2">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="chettikulangara bharani.jpg">
+                          <div class="title">
+                            <span class="caption-bottom">Chettikulangara Bharani</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-2">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="chinakathoor pooram.jpg">
+                          <div class="title">
+                            <span class="caption-bottom">Chinakathoor Pooram</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-2">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="ezhara_ponnana_ettumanoor_temple20200114065610_384_1.jpg">
+                          <div class="title">
+                            <span class="caption-bottom">Ezhara Ponnana Ettumanoor</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-2">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="guruvayoor anayottam.jpg">
+                          <div class="title">
+                            <span class="caption-bottom">Guruvayoor Anayottam</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-2">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="kuttikol thamburati.jpg">
+                          <div class="title">
+                            <span class="caption-bottom">Kuttikol Thamburatti Theyyam</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-2">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="machattu mamangam.jpg">
+                          <div class="title">
+                            <span class="caption-bottom">Machattu Mamangam</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+          <div class="container">
+            <div class="row justify-content-center pt-5">
+              <div class="col-auto">
+                <button class="btn" style="background-color: rgb(249, 251, 252); color:#036;">More Festivals & Events <span class="ribbon">NEW</span></button>
+              </div>
+            </div>
+          </div>  
+      </div>
+    </section>
+
+
+    <div class="video-container">
+      <video controls autoplay>
+        <source src="Loop_video_Rain-MP41.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="overlay-text" style="font-size: 19px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        <a href=""><button type="button">EXPLORE OUR VIDEOS</button></a><br>
+        Take a peek at what God’s Own Country has to offer you. Be awed.
+      </div>
+    </div>
+
+
+
+                    
+            <!-- <div class="card-group">
+              <div class="card">
+                <img src="entire-kerala.jpg" alt="">
+                <button class="btn btn-danger" style="font-family: Montserrat;">INR 2000 to 118,000</button>
+              </div>
+              <div class="card">
+                <img src="central-kerala.jpg" alt="">
+                <button class="btn btn-danger" style="font-family: Montserrat;">INR 1000 to 116,000</button>
+              </div>
+              <div class="card">
+                <img src="backwater.jpg" alt="">
+                <button class="btn btn-danger" style="font-family: Montserrat;">INR 2000 to 60,000</button>
+              </div>
+            </div>
+            <div class="card-group">
+              <div class="card">
+                <img src="south-kerala.jpg" alt="">
+                <button class="btn btn-danger" style="font-family: Montserrat;">INR 1000 to 175,000</button>  
+              </div>
+              <div class="card">
+                <img src="hill-station.jpg" alt="">
+                <button class="btn btn-danger" style="font-family: Montserrat;">INR 2000 to 50,000</button>
+              </div>
+              <div class="card">
+                <img src="honeymoon.jpg" alt="">
+                <button class="btn btn-danger" style="font-family: Montserrat;">INR 2000 to 150,000</button>
+              </div>
+            </div><br><br> -->
+            
+            <div class="container mt-3">
+              <div class="row justify-content-center">
+                <div class="col-auto">
+                  <button class="btn " style="background-color: #036; color:rgb(250, 251, 252);">More Festivals & Events <span class="ribbon">NEW</span></button><br><br>
+                </div>
+              </div>
+            </div>            
+        </div>
+      </div> 
+  </section>
+
+  <section style="background-color: #e3e7f1;">
+    <div class="container-fluid">
+      <div class="container pt-5">
+        <h2 class="text-center" style="font-family: Montserrat;color: #036;font-size: 30px;">Tour Packages</h2>
+        <p style="text-align: center;font-size: 18px;font-family: Montserrat;">STOP. Breathe. Slow down. Embrace life. It’s time for Kerala!<br>
+          Plan your trip with amazing offers and packages.</p>
+        <span class="sub-head"></span><br> 
+          <div class="card-group">
+            <div class="card">
+              <img src="entire-kerala.jpg" alt="">
+              <div class="card-img-overlay text-white">
+                <h5 class="card-title">Entire Kerala</h5>
+                <p class="card-text">
+                  A journey through God's Own Country</p>
+              </div>
+              <button class="btn" style="font-family: Montserrat;">INR 2000 to 118,000</button>
+            </div>
+            <div class="card">
+              <img src="central-kerala.jpg" alt="">
+              <div class="card-img-overlay text-white">
+                <h5 class="card-title">Central Kerala</h5>
+                <p class="card-text">Trip to the soul of Kerala</p>
+              </div>
+              <button class="btn" style="font-family: Montserrat;">INR 1000 to 116,000</button>
+            </div>
+            <div class="card">
+              <img src="backwater.jpg" alt="">
+              <div class="card-img-overlay text-white">
+                <h5 class="card-title">Backwater</h5>
+                <p class="card-text">Through the stretches of emerald </p>
+              </div>
+              <button class="btn" style="font-family: Montserrat;">INR 2000 to 60,000</button>
+            </div>
+          </div>
+          <div class="card-group">
+            <div class="card">
+              <img src="south-kerala.jpg" alt="">
+              <div class="card-img-overlay text-white" style="font-family: Montserrat;">
+                <h5 class="card-title">South Kerala</h5>
+                <p class="card-text">A Journey to remember</p>
+              </div>
+              <button class="btn" style="font-family: Montserrat;">INR 1000 to 175,000</button>  
+            </div>
+            <div class="card">
+              <img src="hill-station.jpg" alt="">
+              <div class="card-img-overlay text-white" style="font-family: Montserrat;">
+                <h5 class="card-title">Hill Station </h5>
+                <p class="card-text">Explore the lush mist-clad hill staions</p>
+              </div>
+              <button class="btn" style="font-family: Montserrat;">INR 2000 to 50,000</button>
+            </div>
+            <div class="card">
+              <img src="honeymoon.jpg" alt="">
+              <div class="card-img-overlay text-white" style="font-family: Montserrat;">
+                <h5 class="card-title">Honeymoon </h5>
+                <p class="card-text">Celebrate your romance</p>
+              </div>
+              <button class="btn" style="font-family: Montserrat;">INR 2000 to 150,000</button>
+            </div>
+          </div><br><br>
+          <div class="container mt-3">
+            <div class="row justify-content-center">
+              <div class="col-auto">
+                <button class="btn " style="background-color: #036; color:rgb(250, 251, 252);">Find More Packages <span class="ribbon">NEW</span></button><br><br>
+              </div>
+            </div>
+          </div>               
+      </div>
+    </div> 
+</section>
+
+
+
+<!-- icons -->
+<div class="container justify-content-center mt-5">
+  <h2 class="text-center" style="font-family: Montserrat;color: #036;font-size: 33px;">Plan Your Trip</h2>
+  <span class="sub-head"></span><br>
+  <div class="row mt-5 ms-5">
+    <div class="col-sm">
+      <figure class="figure">
+        <img src="sleeping.png" width="90px" height="90px" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption" style="font-size: 18px; color: black; font-style: Quicksand;">Where to Stay</figcaption>
+      </figure>
+    </div>
+<div class="col-sm">
+  <figure class="figure">
+    <img src="open-book.png" width="90px" height="90px" class="figure-img img-fluid rounded" alt="...">
+    <figcaption class="figure-caption" style="font-size: 18px; color: black; font-style: Quicksand;">E Brochures</figcaption>
+  </figure></div>
+<div class="col-sm">
+  <figure class="figure">
+    <img src="plane.png" width="90px" height="90px" class="figure-img img-fluid rounded" alt="...">
+    <figcaption class="figure-caption" style="font-size: 18px; color: black; font-style: Quicksand;">Visa on Arrival</figcaption>
+  </figure></div>
+<div class="col-sm">
+  <figure class="figure">
+    <img src="traveler.png" width="90px" height="90px" class="figure-img img-fluid rounded" alt="...">
+    <figcaption class="figure-caption" style="font-size: 18px; color: black; font-style: Quicksand;">Travel Info</figcaption>
+  </figure></div>
+<div class="col-sm">
+  <figure class="figure">
+    <img src="chat.png" width="90px" height="90px" class="figure-img img-fluid rounded" alt="...">
+    <figcaption class="figure-caption" style="font-size: 18px; color: black; font-style: Quicksand;">Travel Care</figcaption>
+  </figure>
+</div>
+<div class="col-sm justify-content-center">
+  <figure class="figure">
+    <img src="newsletter.png" width="90px" height="90px" class="figure-img img-fluid rounded" alt="...">
+    <figcaption class="figure-caption" style="font-size: 18px; color: black; font-style: Quicksand;">E Newsletter</figcaption>
+  </figure>
+</div>
+<div class="col-sm">
+  <figure class="figure">
+    <img src="toilet.png" width="90px" height="90px" class="figure-img img-fluid rounded" alt="...">
+    <figcaption class="figure-caption" style="font-size: 18px; color: black; font-style: Quicksand;">Toilet</figcaption>
+  </figure></div>
+</div>
+</div> <br>
+
+    <!-- forms -->
+    
+<div class="container">
+  <div class="border border-light" style="background-color: #e3e7f1;">
+    <form>
+      <div class="row m-3 m-lg-5" style="font-size: 21px;font-family:Montserrat;color: #036;">
+        <div class="col-12 col-lg-4">
+          <label for="keyword" class="form-label">Search for Accommodation</label>
+        </div>
+        <div class="col-12 col-lg-6">
+          <input type="text" class="form-control h-100" id="keyword" placeholder="Enter Keyword" style="border-radius: 0;">
+        </div>
+        <div class="col-12 col-lg-2 mt-3 mt-lg-0">
+          <button type="submit" class="btn btn-success btn-block p-2" style="border-radius: 0;"><i class="bi bi-search"></i> SEARCH</button>
+        </div>
+      </div>
+    </form>    
+  </div>
+</div><br>
+    
+
+
+<!-- gallery -->
+<section>
+  <div class="container-fluid pt-5">
+      <h2 class="text-center" style="font-family: Montserrat;color: #036;font-size: 33px;">Explore Photo Gallery</h2>
+      <span class="sub-head"></span><br>
+      <div class="gallery"> 
+        <div class="card-group">
+        <div class="card">
+        <img src="beach.jpg" alt="">
+        <div class="title">
+          <span class="caption-bottom">Beaches</span>
+          </div>  
+        </div>
+        <div class="card">
+        <img src="panorama.jpg" alt="">
+        <div class="title">
+          <span class="caption-bottom">Kerala Panorama</span>
+          </div>  
+        </div>
+        <div class="card">
+        <img src="pilgrim.jpg" alt="">
+        <div class="title">
+          <span class="caption-bottom">Pilgrim centres</span>
+          </div>  
+        </div>  
+        <div class="card">
+        <img src="artforms.jpg" alt="">
+        <div class="title">
+          <span class="caption-bottom">Artforms</span>
+          </div>  
+        </div>
+        <div class="card">
+        <img src="festivals.jpg" alt="">
+        <div class="title">
+          <span class="caption-bottom">Festivals</span>
+          </div>  
+        </div>
+        <div class="card">
+        <img src="places-of-interest1.jpg" alt="">
+        <div class="title">
+          <span class="caption-bottom">Places of Interest</span>
+          </div>  
+        </div>  
+        </div>        
+        <div class="card-group">
+          <div class="card">
+          <img src="waterfall.jpg" alt="">
+          <div class="title">
+            <span class="caption-bottom">Waterfalls</span>
+            </div>    
+          </div>
+          <div class="card">
+          <img src="monuments.jpg" alt="">
+          <div class="title">
+            <span class="caption-bottom">Monuments</span>
+            </div>    
+          </div>
+          <div class="card">
+          <img src="wildlife.jpg" alt="">
+          <div class="title">
+            <span class="caption-bottom">Wildlife</span>
+            </div>    
+          </div>  
+          <div class="card">
+          <img src="hills.jpg" alt="">
+          <div class="title">
+            <span class="caption-bottom">Hills</span>
+            </div>    
+          </div>
+          <div class="card">
+          <img src="ayurveda img.jpg" alt="">
+          <div class="title">
+            <span class="caption-bottom">Ayurveda</span>
+            </div>    
+          </div>
+          <div class="card">
+          <img src="Backwater-kasargod_004.jpg" alt="">
+          <div class="title">
+            <span class="caption-bottom">Backwaters</span>
+            </div>    
+          </div>            
+      </div>
+    </div><br><br>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-auto">
+          <button class="btn " style="background-color: #036; color:rgb(250, 251, 252);">Browse our Gallery <img src="image-.png"></button><br><br>
+        </div>
+      </div>
+    </div>           
+  </div>
+</section>
+
+
+
+<!-- Clr Icons -->
+
+<section>
+  <div class="container-fluid">
+    <div class="container pt-4">
+      <h2 class="text-center" style="font-family: Montserrat;color: #036;font-size: 28px;">Connect with us</h2>
+      <span class="sub-head"></span><br>
+      <div class="text-center fs-1">
+        <img src="youtube.png" alt="">
+        <img src="fb1.png" alt="">
+        <img src="twitter.png" alt="">
+        <img src="instagram (1).png" alt="">
+        <img src="whatsapp (1).png" alt="">
+        <img src="pinterest (1).png" alt="">
+        <img src="linkedin.png" alt="">
+      </div><br><br>
+      <p class="text-center" style="font-family: Montserrat;color: #036;font-size: 18px;"><a href="" style="text-decoration: none;">#KeralaTourism</a> is Live & Trending. Don't forget to follow & share your Kerala experience</p>
+      <div class="box" style="border-top: 1px solid lightgray;"><br>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-header">
+                <small class="text-body-secondary">
+                  <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="nav logo.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                        Bootstrap
+                      </a>
+                    </div>
+                  </nav>
+                </small>
+              </div>
+              <div class="scroll-bg">
+                <div class="scroll-div">
+                  <div class="scroll-object">
+                    <a href="">Card</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-header">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+              <div class="scroll-bg">
+                <div class="scroll-div">
+                  <div class="scroll-object">
+                    background: url(https://www.facebook.com/keralatourismofficial?ref=embed_page);
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-header">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+              <div class="scroll-bg">
+                <div class="scroll-div">
+                  <div class="scroll-object">
+                    <a href="">Card</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><br><br><br>
+
+<section style="background-color: #e3e7f1; font-family: Montserrat; color: #036;">
+  <footer class="container-fluid pt-3">
+      <div class="row">
+          <div class="col-sm-6 col-md">
+              <h5>Explore</h5>
+              <ul class="list-unstyled text-small">
+                  <li>Classification Schemes</li>
+                  <li>Governmental Affairs</li>
+                  <li>Media Room</li>
+                  <li>Tourism Events</li>
+                  <li>Maps</li>
+                  <li>Site Map</li>
+              </ul>
+          </div>
+          <div class="col-sm-6 col-md">
+              <h5>Travel Hub</h5>
+              <ul class="list-unstyled text-small">
+                  <li>Kerala at a Glance</li>
+                  <li>Travel Care</li>
+                  <li>Where to Stay</li>
+                  <li>How to?</li>
+                  <li>Travel Tips</li>
+              </ul>
+          </div>
+          <div class="col-sm-6 col-md">
+              <h5>Nature</h5>
+              <ul class="list-unstyled text-small">
+                  <li>Hills</li>
+                  <li>Backwaters</li>
+                  <li>Beaches</li>
+                  <li>Wildlife</li>
+                  <li>Waterfalls</li>
+              </ul>
+          </div>
+          <div class="col-sm-6 col-md">
+              <h5>Places</h5>
+              <ul class="list-unstyled text-small">
+                  <li>Munnar</li>
+                  <li>Wayanad</li>
+                  <li>Kovalam</li>
+                  <li>Periyar</li>
+                  <li>Varkala</li>
+              </ul>
+          </div>
+          <div class="col-sm-6 col-md">
+              <h5>Specialities</h5>
+              <ul class="list-unstyled text-small">
+                  <li>Ayurveda</li>
+                  <li>Monsoon</li>
+                  <li>Houseboat</li>
+                  <li>Kerala Food</li>
+                  <li>Festivals</li>
+              </ul>
+          </div>
+          <div class="col-sm-6 col-md">
+              <h5>Videos/Photos</h5>
+              <ul class="list-unstyled text-small">
+                  <li>Videos</li>
+                  <li>Photos</li>
+                  <li>Royalty Free Photos</li>
+                  <li>Wallpapers</li>
+              </ul>
+          </div>
+      </div>
+  </footer>
+  <footer class="container-fluid pt-3">
+      <div class="row">
+          <div class="col-md-4">
+              <h4 class="text-center">Subscribe Our Newsletter<br>
+                  <span style="font-size:15px;" class="fw-light">Get notified of Kerala Tourism events and activities</span></h4>
+              <form>
+                  <div class="input-group text-center">
+                      <input type="text" class="form-control" placeholder="Your Email" style="border-radius: 0%;">
+                      <span class="input-group-text" style="background-color: #036; color: #fff; border-radius: 0%;">SUBSCRIBE</span>
+                  </div>
+              </form>
+          </div>
+          <div class="col-md-4 pt-md-0 pt-4">
+              <p class="text-center">For Business/Trade/Classifications and Tenders please visit<br>
+                  <span style="font-size: 20px; color: black;">www.keralatourism.gov.in</span></p>
+          </div>
+          <div class="col-md-4">
+          </div>
+      </div>
+      <div class="container mt-3">
+          <div class="row justify-content-center">
+              <div class="col-auto">
+                  <button class="btn rec-button" style="background-color: #bd1a48; color:rgb(250, 251, 252); font-style: Quicksand; border-radius: 0%;">RECRUITMENTS</button><br><br>
+              </div>
+          </div>
+      </div>
+  </footer>
+</section>
+
+<!-- Logos -->
+
+
+ <div class="container-fluid">
+  <div class="row mt-5">
+      <div class="col">
+        <img src="dtpc.png" style="display: inline-block;
+        text-align: center;
+        width: auto;"> 
+      </div>
+      <div class="col">
+       <img src="ktdc.jpg" style="display: inline-block;
+       text-align: center;
+       width: auto;">
+      </div>
+      <div class="col">
+        <img src="ktil-logo.jpg" style="display: inline-block;
+        text-align: center;
+        width: auto;">
+      </div>
+      <div class="col">
+       <img src="teps.jpg" alt="" style="display: inline-block;
+       text-align: center;
+       width: auto;">
+      </div>
+      <div class="col">
+        <img src="brdc-logo.png" alt="" style="display: inline-block;
+        text-align: center;
+        width: auto;">
+            </div>
+      <div class="col">
+        <img src="sargaalaya-logo (1).png" alt="" style="display: inline-block;
+        text-align: center;
+        width: auto;">
+            </div>
+      <div class="col">
+        <img src="sihmk.jpg" alt="" style="display: inline-block;
+        text-align: center;
+        width: auto;">
+            </div>
+      <div class="col">
+        <img src="responsible-tourism.jpg" alt="" style="display: inline-block;
+        text-align: center;
+        width: auto;">
+            </div>
+      <div class="col">
+        <img src="kitts.jpg" alt="" style="display: inline-block;
+        text-align: center;
+        width: auto;">
+            </div>
+      <div class="col">
+        <img src="adventurekeralatourism-logo.jpg" alt="" style="display: inline-block;
+        text-align: center;
+        width: 150px;">
+            </div>
+            <div class="col">
+              <img src="kitts.jpg" alt="" style="display: inline-block;
+              text-align: center;
+              width: auto;">
+                  </div>
+  </div>
+</div><br>
+<section class="mt-3">
+  <footer class="">
+    <p class="text-center" style="font-size: 16px;font-family: Montserrat; color:gray;">Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033<br>
+      Phone: +91 471 2321132, Fax: +91 471 2322279, E-mail: info@keralatourism.org.<br>
+      All rights reserved © Kerala Tourism 2024. Copyright | Terms of Use | Cookie Policy | Contact Us.<br>
+      Developed & Maintained by Invis.</p>
+  </footer>
+</section>
+
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script> 
+        <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+
+                  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                  
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+                  
+                  
+                    
+<script type='text/javascript'>
+const navEl = document.querySelector('.navbar');
+window.addEventListener('scroll', () => {
+
+if (window.scrollY >= 56) { navEl.classList.add('navbar-scrolled');
+} else if (window.scrollY < 56) { navEl.classList.remove('navbar-scrolled');
+}
+});
+
+                    $('.owl-carousel').owlCarousel({
+                      loop:true,
+                      margin:10,
+                      nav:true,
+                      responsive:{
+                          0:{
+                              items:1
+                          },
+                          600:{
+                              items:3
+                          },
+                          1000:{
+                              items:4
+                          }
+                      }
+                  })
+
+                  $('.carousel .carousel-item').each(function () {
+var minPerSlide = 4;
+var next = $(this).next();
+if (!next.length) {
+next = $(this).siblings(':first');
+}
+next.children(':first-child').clone().appendTo($(this));
+
+for (var i = 0; i < minPerSlide; i++) { next=next.next(); if (!next.length) { next=$(this).siblings(':first'); } next.children(':first-child').clone().appendTo($(this)); } }); 
+                  </script>                 
+</body>
+</html>
